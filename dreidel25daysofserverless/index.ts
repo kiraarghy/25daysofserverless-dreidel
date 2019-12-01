@@ -7,7 +7,7 @@ const httpTrigger: AzureFunction = async function(
 ): Promise<void> {
     context.res = {
         // status: 200, /* Defaults to 200 */
-        body: dreidelVals[Math.round(Math.random() * 4)]
+        body: dreidelVals[Math.round(Math.random() * 3)]
     };
 };
 
